@@ -1,0 +1,59 @@
+.profile {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 2%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    padding: 24px 0;
+}
+
+.name {
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tag {
+    margin-top: 16px;
+    color: DimGrey;
+}
+
+.location {
+    margin-top: 16px;
+    color: DimGrey;
+}
+
+.stats {
+    background-color: Gainsboro;
+    display: flex;
+    width: 100%;
+}
+
+.statsItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    width: calc(100% / 3);
+    height: 80px;
+    border: 1px solid lightgrey;
+}
+
+.statsItem:not(:last-child) {
+    border-left: none;
+}
+
+.label {
+    color: DimGrey;
+}
+
+.quantity {
+    font-size: 20px;
+    font-weight: bold;
+}
